@@ -73,7 +73,7 @@ $alert-themes:
 }
 
 @each $name, $backgorund-color, $border-color, $content-color in $alert-themes {
-  .ce-popover__item[data-item-name='alert-#{$name}'] .ce-popover__item-icon {
+  .ce-popover-item[data-item-name='alert-#{$name}'] .ce-popover-item__icon {
     @include settings-icon-variant(
       $backgorund-color,
       $border-color,

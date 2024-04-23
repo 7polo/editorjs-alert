@@ -26,17 +26,17 @@ Watch this tool in action in the following short GIF movie.
 Get the package
 
 ```sh
-npm i --save editorjs-alert
+npm i --save @7polo/editorjs-alert
 ```
 
 Include module at your application
 
 ```js
-const Header = require('editorjs-alert');
+const Header = require('@7polo/editorjs-alert');
 
 // OR
 
-import Alert from 'editorjs-alert';
+import Alert from '@7polo/editorjs-alert';
 ```
 
 ### Download to your project's source dir
